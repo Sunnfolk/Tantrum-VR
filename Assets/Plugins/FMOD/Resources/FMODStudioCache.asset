@@ -1,0 +1,6100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9158524788391457953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD
+  m_EditorClassIdentifier: 
+  Name: LOD
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-9148189423832990841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cry_baby/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-9108969005387551466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CB/Speaker
+  m_EditorClassIdentifier: 
+  Path: event:/CB/Speaker
+  guid: 77c796096ae85b49b724afd7581147b1
+  Banks:
+  - {fileID: -3614666972990032483}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &-9071561547268922111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/Mini_disc
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/Mini_disc
+  guid: 5e87182f00d1ee46b0ebc9621d8b2b3c
+  Banks:
+  - {fileID: -1574307911200435742}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3400000
+--- !u!114 &-9060984078099612412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood
+  m_EditorClassIdentifier: 
+  Name: Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-8924263961587151157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 1
+--- !u!114 &-8902666192257947733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu/Menu
+  m_EditorClassIdentifier: 
+  Path: event:/Menu/Menu
+  guid: 76595c6ea4cf414698634486a84aed69
+  Banks:
+  - {fileID: -5989355459236915333}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 87272
+--- !u!114 &-8783201212707480524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Skateboard_land
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Skateboard_land
+  guid: 557cc477f54bbb45b149b54df179eb0d
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-8761333643939813496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Window
+  m_EditorClassIdentifier: 
+  Name: Window
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-8585423354817858980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Speaker_norsk/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-8556862845843144679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/LOD
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/LOD
+  guid: 995488ed39be5f4bbd19e7f28213ae08
+  Banks:
+  - {fileID: -7188773081760235701}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 56426
+--- !u!114 &-8343721215002506009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD_Store
+  m_EditorClassIdentifier: 
+  Name: LOD_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-8312296365053613114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-8295824935294310217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CB/LOD
+  m_EditorClassIdentifier: 
+  Path: event:/CB/LOD
+  guid: 1b2bbc2f511d9b4387ddb2563d167d05
+  Banks:
+  - {fileID: -3614666972990032483}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 60000
+--- !u!114 &-8242494736763545320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Rebel without a clause
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Rebel without a clause
+  guid: 65b5bff27624fc41891053f56df9cb75
+  Banks:
+  - {fileID: -7188773081760235701}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 18352
+--- !u!114 &-7985440138576479237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ipod Controls
+  m_EditorClassIdentifier: 
+  Name: Ipod Controls
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 1
+--- !u!114 &-7921158261700803222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Flamingo_squeak
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Flamingo_squeak
+  guid: 5655bc101d555e46a665bc6d8c68ee9d
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &-7916058239018887233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/Fuck_the_man
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/Fuck_the_man
+  guid: a9e206e06c23634785300a7e309be99f
+  Banks:
+  - {fileID: 3902422622030439906}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4984165702800267345}
+  - {fileID: -2936308323471067966}
+  - {fileID: 1375658225526387164}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 32000
+--- !u!114 &-7907081567543358065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cry_baby/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-7888739085899310384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Wet_thud
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Wet_thud
+  guid: 01555bd1c321454384d8cc99d846d6d0
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-7770283791138401626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Background_noise
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Background_noise
+  guid: 5aba0cf1e895a24fb748debf4462cb48
+  Banks:
+  - {fileID: -7602354319741202117}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &-7690125038793670440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-7602354319741202117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/RWAC.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Rebel without a clause FMOD/Build/Desktop/RWAC.bank
+  SubDir: 
+  lastModified: 637175626125796569
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 68466816
+  Exists: 1
+--- !u!114 &-7569316799840667576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/LOD_song
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/LOD_song
+  guid: 857d6667317acc4b95356b9a02891467
+  Banks:
+  - {fileID: -1574307911200435742}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 71949
+--- !u!114 &-7509847170841988985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fuck_the_man/FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-7370919639655792491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/Angry_Complain
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/Angry_Complain
+  guid: 3d49637f6dafee49b092deb1457239b0
+  Banks:
+  - {fileID: -1574307911200435742}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &-7364830142814926764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fuck_the_man/FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-7223350852473267169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637177443585590274
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 3256
+  Exists: 1
+--- !u!114 &-7205587060676879625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood
+  m_EditorClassIdentifier: 
+  Name: Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-7188773081760235701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/RWAC.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/RWAC.bank
+  SubDir: 
+  lastModified: 637175697498690917
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 68466688
+  Exists: 1
+--- !u!114 &-7097317233705002283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Window
+  m_EditorClassIdentifier: 
+  Name: Window
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-7016452558676885410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Background_noise
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Background_noise
+  guid: 5aba0cf1e895a24fb748debf4462cb48
+  Banks:
+  - {fileID: -7188773081760235701}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &-7016362505123878144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637177443585659713
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 4390
+  Exists: 1
+--- !u!114 &-7003349754053407336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Ambient
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Ambient
+  guid: 2c516db1221ab244b943cebfeb406cf1
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &-6959451942021230406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/LOD
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/LOD
+  guid: 995488ed39be5f4bbd19e7f28213ae08
+  Banks:
+  - {fileID: -7602354319741202117}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 56426
+--- !u!114 &-6958842401075930536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/LOD SONGS.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR2/Tantrum VR/Build/Desktop/LOD SONGS.bank
+  SubDir: 
+  lastModified: 637177311399605449
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 470
+  Exists: 1
+--- !u!114 &-6797879198793287070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cry_baby/Speaker
+  m_EditorClassIdentifier: 
+  Name: Speaker
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-6702957393002961743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-6699586014554794688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Store/Ambient music
+  m_EditorClassIdentifier: 
+  Path: event:/Store/Ambient music
+  guid: 4b6218c90aeddc429a0f3a9d68c09431
+  Banks:
+  - {fileID: -723084996682066705}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4524952744030528558}
+  - {fileID: -3191005061548166806}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3376000
+--- !u!114 &-6698110812113955260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ambient
+  m_EditorClassIdentifier: 
+  Name: Ambient
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-6666300240275510499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Speaker
+  m_EditorClassIdentifier: 
+  Name: Speaker
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-6655274724094141108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/City_sound
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/City_sound
+  guid: 9e349a6b3cf4cd4a81808cfdee1869ab
+  Banks:
+  - {fileID: 4950576484640845877}
+  - {fileID: 5735676724422021122}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 163631
+--- !u!114 &-6638339854483180529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Menu.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Rebel without a clause FMOD/Build/Desktop/Menu.bank
+  SubDir: 
+  lastModified: 637175626121898019
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1278464
+  Exists: 1
+--- !u!114 &-6568446817567755154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FTM.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/FTM.bank
+  SubDir: 
+  lastModified: 637176435336151361
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 38003040
+  Exists: 1
+--- !u!114 &-6473322825939322291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/Angry_Complain
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/Angry_Complain
+  guid: 3d49637f6dafee49b092deb1457239b0
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3751880116687773213}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &-6323295999845541616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637175697506537628
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1771008
+  Exists: 1
+--- !u!114 &-6215063872925106410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/City_sound
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/City_sound
+  guid: 9e349a6b3cf4cd4a81808cfdee1869ab
+  Banks:
+  - {fileID: 3902422622030439906}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 945145585863613909}
+  - {fileID: 5232947674869281661}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 163631
+--- !u!114 &-6086378183178042698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/City_sound/LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-6030610421217265659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ipod Controls
+  m_EditorClassIdentifier: 
+  Name: Ipod Controls
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 1
+--- !u!114 &-5999279494908496992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Window_smash
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Window_smash
+  guid: cb37dfa3a09aa740a676f07130356955
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-5989355459236915333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Menu.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/Menu.bank
+  SubDir: 
+  lastModified: 637177443609993508
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1278592
+  Exists: 1
+--- !u!114 &-5989282868834921385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ambient
+  m_EditorClassIdentifier: 
+  Name: Ambient
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-5916643044043496437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Cup_clang
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Cup_clang
+  guid: 70e701784b08c941a80fd56252e1c3db
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-5868001875365362096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637175697205857963
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 3476
+  Exists: 1
+--- !u!114 &-5858539460129518754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/Mini_disc
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/Mini_disc
+  guid: 5e87182f00d1ee46b0ebc9621d8b2b3c
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -641476899198908470}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3400000
+--- !u!114 &-5855450741272024771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu/Menu
+  m_EditorClassIdentifier: 
+  Path: event:/Menu/Menu
+  guid: 76595c6ea4cf414698634486a84aed69
+  Banks:
+  - {fileID: 6174288675319551047}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 87272
+--- !u!114 &-5815171746592634976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Store/Speaker
+  m_EditorClassIdentifier: 
+  Path: event:/Store/Speaker
+  guid: 77c796096ae85b49b724afd7581147b1
+  Banks:
+  - {fileID: -723084996682066705}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4656406566811580893}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &-5680186794763529121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Speaker
+  m_EditorClassIdentifier: 
+  Name: Speaker
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-5660315208033884879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD
+  m_EditorClassIdentifier: 
+  Name: LOD
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-5435071543070722246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD
+  m_EditorClassIdentifier: 
+  Name: LOD
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-5344894667325263959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fuck_the_man/Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 0
+--- !u!114 &-5290135348650084523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Announcer_CryBaby
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Announcer_CryBaby
+  guid: 4f86a2cc0a7561479d182a3798956972
+  Banks:
+  - {fileID: -1470266751080688157}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3500
+--- !u!114 &-5167002481000942796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood
+  m_EditorClassIdentifier: 
+  Name: Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-5155819359654389162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/City_sound
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/City_sound
+  guid: 9e349a6b3cf4cd4a81808cfdee1869ab
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 163631
+--- !u!114 &-5140281687119530006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Ipod
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Ipod
+  guid: fb4caf59a4cc39498cbcf1bf9266f14b
+  Banks:
+  - {fileID: -7188773081760235701}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1623452
+--- !u!114 &-5111195215113694534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Skateboard_land
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Skateboard_land
+  guid: 557cc477f54bbb45b149b54df179eb0d
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-5101840399179629166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Shoppingcart_roll
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Shoppingcart_roll
+  guid: ed2f0025120e8d47af4bc93899ca9994
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11000
+--- !u!114 &-5079690281331986807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD
+  m_EditorClassIdentifier: 
+  Name: LOD
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-5001068824394805996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Outdoor_noise
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Outdoor_noise
+  guid: 74b3a1381ffc964095f777d90ab94749
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 40000
+--- !u!114 &-4984165702800267345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fuck_the_man/Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 1
+--- !u!114 &-4822022383431504696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/Fuck_the_man
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/Fuck_the_man
+  guid: a9e206e06c23634785300a7e309be99f
+  Banks:
+  - {fileID: -1574307911200435742}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 32000
+--- !u!114 &-4601456702297880163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Angry_Complain/FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-4424847452973738964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Shoppingcart_roll
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Shoppingcart_roll
+  guid: ed2f0025120e8d47af4bc93899ca9994
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11000
+--- !u!114 &-4413550231623858722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Glass_break
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Glass_break
+  guid: 1bcf35ac7508a941bac16f8f9f8c212e
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 875
+--- !u!114 &-4303891480623894918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/LOD
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/LOD
+  guid: 995488ed39be5f4bbd19e7f28213ae08
+  Banks:
+  - {fileID: -3876375823567975322}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 56426
+--- !u!114 &-4247944459576082632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Porcelain_breaking
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Porcelain_breaking
+  guid: 0a51a8c69dc628469c257df8557a6a4c
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-4226009260157290501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Window
+  m_EditorClassIdentifier: 
+  Name: Window
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-4178588976562193305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Bump
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Bump
+  guid: 4ef6d248ef973c4c8da3047298b7e96c
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-4130704909185358320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Soda_fizz
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Soda_fizz
+  guid: 740428ec5526a04fb0cc098acf3def06
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-3925810367336270922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 1
+--- !u!114 &-3912670192765042979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ipod Controls
+  m_EditorClassIdentifier: 
+  Name: Ipod Controls
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 1
+--- !u!114 &-3876375823567975322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/RWAC.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/RWAC.bank
+  SubDir: 
+  lastModified: 637177443835391123
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 68867584
+  Exists: 1
+--- !u!114 &-3843297206026510951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 1
+--- !u!114 &-3773859146418096237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOD_song/LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-3751880116687773213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Angry_Complain/Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 1
+--- !u!114 &-3746023274320680241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 1
+--- !u!114 &-3704771379654289715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/CB.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/CB.bank
+  SubDir: 
+  lastModified: 637176435184459939
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 63821984
+  Exists: 1
+--- !u!114 &-3614666972990032483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/CB.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/CB.bank
+  SubDir: 
+  lastModified: 637177443428229083
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 63822880
+  Exists: 1
+--- !u!114 &-3577731847921031937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Angry
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Angry
+  guid: f2607db193efaf43a48c488098a80a17
+  Banks:
+  - {fileID: -7188773081760235701}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
+--- !u!114 &-3523570395469692438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637176435587513818
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1771008
+  Exists: 1
+--- !u!114 &-3228734828274750658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-3191005061548166806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient music/Speaker
+  m_EditorClassIdentifier: 
+  Name: Speaker
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-3094739510734071226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD
+  m_EditorClassIdentifier: 
+  Name: LOD
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-2937087762365161966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOD/Speaker
+  m_EditorClassIdentifier: 
+  Name: Speaker
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-2936308323471067966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fuck_the_man/FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-2882659704396614573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Bottle_thud
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Bottle_thud
+  guid: 9bd511475179eb4c83925e093535320c
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-2846718123684615299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Rebel without a clause FMOD/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637175626121669859
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2050
+  Exists: 1
+--- !u!114 &-2831007430927604388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/City_sound/LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-2773942564693104108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient music/Speaker
+  m_EditorClassIdentifier: 
+  Name: Speaker
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-2745685971419823552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Store/Speaker
+  m_EditorClassIdentifier: 
+  Name: Speaker
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-2632717599908562755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ipod Controls
+  m_EditorClassIdentifier: 
+  Name: Ipod Controls
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 1
+--- !u!114 &-2564315398226648575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/RWAC.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR2/Tantrum VR/Build/Desktop/RWAC.bank
+  SubDir: 
+  lastModified: 637177311404109140
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 68865216
+  Exists: 1
+--- !u!114 &-2558037917880775048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/LOD
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/LOD
+  guid: 995488ed39be5f4bbd19e7f28213ae08
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 56426
+--- !u!114 &-2457620885876928855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ambient
+  m_EditorClassIdentifier: 
+  Name: Ambient
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-2457170618683957262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Angry_Complain/Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 0
+--- !u!114 &-2449797126125602359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Doorhandle_close
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Doorhandle_close
+  guid: bfc84a2655d00b48a320ab78164c6fd3
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-2236838310271157604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ambient
+  m_EditorClassIdentifier: 
+  Name: Ambient
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-2180332739779006215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-2176005582578611825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Porcelain_breaking
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Porcelain_breaking
+  guid: 0a51a8c69dc628469c257df8557a6a4c
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-2119163911189029884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Menu.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/Menu.bank
+  SubDir: 
+  lastModified: 637176435360738038
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1278464
+  Exists: 1
+--- !u!114 &-2083336867930278869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Announcer.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR2/Tantrum VR/Build/Desktop/Announcer.bank
+  SubDir: 
+  lastModified: 637177311393102878
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 123264
+  Exists: 1
+--- !u!114 &-2055858047857191101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Window
+  m_EditorClassIdentifier: 
+  Name: Window
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-1996709867311273039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ipod Controls
+  m_EditorClassIdentifier: 
+  Name: Ipod Controls
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 1
+--- !u!114 &-1883931766450306003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-1869358144518365694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Angry_Complain/FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-1778172809895821292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Background_noise
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Background_noise
+  guid: 5aba0cf1e895a24fb748debf4462cb48
+  Banks:
+  - {fileID: -3876375823567975322}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &-1767072658056248812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Store/LOD
+  m_EditorClassIdentifier: 
+  Path: event:/Store/LOD
+  guid: 1b2bbc2f511d9b4387ddb2563d167d05
+  Banks:
+  - {fileID: -723084996682066705}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 9083787856337889515}
+  - {fileID: -2937087762365161966}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 58909
+--- !u!114 &-1748864740782932573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Skateboard_turn
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Skateboard_turn
+  guid: 98de109e3bf34d4ab907a3f07684cafa
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1315
+--- !u!114 &-1743644245935205496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-1724204947079618240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Background_noise_norsk
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Background_noise_norsk
+  guid: ec736a91f4a30b48a84b9dad24c6f5ed
+  Banks:
+  - {fileID: -3876375823567975322}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &-1601125724364243168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Bottle_drop
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Bottle_drop
+  guid: d06dfcfa8a6cd949ad7988c6e9c1491f
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-1592511807354279985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Window
+  m_EditorClassIdentifier: 
+  Name: Window
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-1574307911200435742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FTM.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/FTM.bank
+  SubDir: 
+  lastModified: 637177443585441474
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 38003168
+  Exists: 1
+--- !u!114 &-1568212708574780872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD_Store
+  m_EditorClassIdentifier: 
+  Name: LOD_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-1470266751080688157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Announcer.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/Announcer.bank
+  SubDir: 
+  lastModified: 637177443137076646
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 123264
+  Exists: 1
+--- !u!114 &-1457753758868355592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR2/Tantrum VR/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637177311399640165
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 3256
+  Exists: 1
+--- !u!114 &-1309949053400309242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ambient
+  m_EditorClassIdentifier: 
+  Name: Ambient
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-1164929263802202084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-1150378867353964768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD
+  m_EditorClassIdentifier: 
+  Name: LOD
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-1137153830746244319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Thud
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Thud
+  guid: 2c7d8509deb3b749b8852c88bc50cb64
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-1032147620529470466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Rebel without a clause FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637175626121650027
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2162
+  Exists: 1
+--- !u!114 &-1003322289126590219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Metal
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Metal
+  guid: eae750c2e8c5ce4dbaf4d4cacef353e8
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-989417455536279852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Firehydrant_waterspout
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Firehydrant_waterspout
+  guid: 22fb50fdabf64a4c8c7008f48c5838d6
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &-913556979091513511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ipod Controls
+  m_EditorClassIdentifier: 
+  Name: Ipod Controls
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 1
+--- !u!114 &-911830783983281093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD
+  m_EditorClassIdentifier: 
+  Name: LOD
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-889522332528887355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood
+  m_EditorClassIdentifier: 
+  Name: Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-815374884479544088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Ambient
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Ambient
+  guid: 2c516db1221ab244b943cebfeb406cf1
+  Banks:
+  - {fileID: -3876375823567975322}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &-723084996682066705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Store.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/Store.bank
+  SubDir: 
+  lastModified: 637175697675479900
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 62195040
+  Exists: 1
+--- !u!114 &-641476899198908470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mini_disc/Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 1
+--- !u!114 &-638070178007860388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Skateboard_turn
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Skateboard_turn
+  guid: 98de109e3bf34d4ab907a3f07684cafa
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1315
+--- !u!114 &-490922377142059785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ipod Controls
+  m_EditorClassIdentifier: 
+  Name: Ipod Controls
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 0
+--- !u!114 &-423828723423700544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Electronics
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Electronics
+  guid: 2fbc5532effe8f449ba0fe3249e2fe96
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &-392242871896721333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Comments/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-201591650315062394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Angry
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Angry
+  guid: f2607db193efaf43a48c488098a80a17
+  Banks:
+  - {fileID: -7602354319741202117}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
+--- !u!114 &-33892557905421278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FTM.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Rebel without a clause FMOD/Build/Desktop/FTM.bank
+  SubDir: 
+  lastModified: 637175638817645732
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 36291008
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -7016362505123878144}
+  - {fileID: -1470266751080688157}
+  - {fileID: -3614666972990032483}
+  - {fileID: -1574307911200435742}
+  - {fileID: 4068925932078225157}
+  - {fileID: -7223350852473267169}
+  - {fileID: -5989355459236915333}
+  - {fileID: -3876375823567975322}
+  - {fileID: 7412433510558230265}
+  EditorEvents:
+  - {fileID: 504547698967221513}
+  - {fileID: 8894458553320027326}
+  - {fileID: 1903922388746493453}
+  - {fileID: 6093794930851753674}
+  - {fileID: -4822022383431504696}
+  - {fileID: -8902666192257947733}
+  - {fileID: 3792042791076401068}
+  - {fileID: 6300293408237755083}
+  - {fileID: -1724204947079618240}
+  - {fileID: -4247944459576082632}
+  - {fileID: 8412860092722726511}
+  - {fileID: -989417455536279852}
+  - {fileID: 5099496166471150089}
+  - {fileID: 414501850330357692}
+  - {fileID: 7990320022285788076}
+  - {fileID: -8783201212707480524}
+  - {fileID: 1428617743273917815}
+  - {fileID: 6468686099413180956}
+  - {fileID: 2526954041097438652}
+  - {fileID: 878689109403574938}
+  - {fileID: -638070178007860388}
+  - {fileID: -2882659704396614573}
+  - {fileID: 7376078697130534014}
+  - {fileID: -2449797126125602359}
+  - {fileID: 8273964678564834017}
+  - {fileID: 4628233138218049324}
+  - {fileID: 3768651470655796771}
+  - {fileID: -5101840399179629166}
+  - {fileID: 6344882941980680791}
+  - {fileID: -8295824935294310217}
+  - {fileID: 1588639939390294428}
+  - {fileID: -9108969005387551466}
+  - {fileID: 392671553554188987}
+  - {fileID: 1107796124008043570}
+  - {fileID: -7370919639655792491}
+  - {fileID: -9071561547268922111}
+  - {fileID: -7569316799840667576}
+  - {fileID: 1160927555943357947}
+  - {fileID: -815374884479544088}
+  - {fileID: -1778172809895821292}
+  - {fileID: 7040061660198284097}
+  - {fileID: -4303891480623894918}
+  - {fileID: 7663340885557387308}
+  - {fileID: 4092341726844988741}
+  - {fileID: 745144665276440011}
+  - {fileID: -5290135348650084523}
+  - {fileID: 7837305102532617070}
+  - {fileID: 1067408876503776768}
+  - {fileID: -7888739085899310384}
+  - {fileID: 3326179634808569403}
+  - {fileID: -423828723423700544}
+  - {fileID: -7921158261700803222}
+  - {fileID: -4130704909185358320}
+  - {fileID: 7374364595035694885}
+  - {fileID: 1325703015834617608}
+  - {fileID: 7652883541206391907}
+  - {fileID: -1003322289126590219}
+  EditorParameters:
+  - {fileID: 2177085819845446135}
+  - {fileID: 1638813944671191043}
+  - {fileID: 175618812461355723}
+  - {fileID: 2557858893403411927}
+  - {fileID: -8312296365053613114}
+  - {fileID: 6311599633400689134}
+  - {fileID: -2180332739779006215}
+  - {fileID: -5435071543070722246}
+  - {fileID: -1592511807354279985}
+  - {fileID: 6334461518332152220}
+  - {fileID: -1996709867311273039}
+  MasterBanks:
+  - {fileID: -7223350852473267169}
+  StringsBanks:
+  - {fileID: -7016362505123878144}
+  stringsBankWriteTime: 637177443585659713
+  cacheVersion: 3
+--- !u!114 &162184302262053581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD
+  m_EditorClassIdentifier: 
+  Name: LOD
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &175343524075752025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 1
+--- !u!114 &175599860473373017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fuck_the_man/LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &175618812461355723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Speaker
+  m_EditorClassIdentifier: 
+  Name: Speaker
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &238376278723649300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Window
+  m_EditorClassIdentifier: 
+  Name: Window
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &284060215797045780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fuck_the_man/Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 0
+--- !u!114 &306713005321125327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOD/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &392671553554188987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CB/Background_noise
+  m_EditorClassIdentifier: 
+  Path: event:/CB/Background_noise
+  guid: 7c0cb0e1a9dae04d8b2c50021d37d01a
+  Banks:
+  - {fileID: -3614666972990032483}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &411026023265240472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ambient
+  m_EditorClassIdentifier: 
+  Name: Ambient
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &414501850330357692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Thud
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Thud
+  guid: 2c7d8509deb3b749b8852c88bc50cb64
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &472731832447109121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/Mini_disc
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/Mini_disc
+  guid: 5e87182f00d1ee46b0ebc9621d8b2b3c
+  Banks:
+  - {fileID: 3902422622030439906}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7675281404143162982}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3400000
+--- !u!114 &504547698967221513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CB/Speaker_norsk
+  m_EditorClassIdentifier: 
+  Path: event:/CB/Speaker_norsk
+  guid: 10bb41349f709e46ba4c8ee6695d6b5e
+  Banks:
+  - {fileID: -3614666972990032483}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 23500
+--- !u!114 &543705444071096445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Store/Store
+  m_EditorClassIdentifier: 
+  Path: event:/Store/Store
+  guid: d653c513a3a74748b02095d92496f1f2
+  Banks:
+  - {fileID: -723084996682066705}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3104869551676936636}
+  - {fileID: -2745685971419823552}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 20000
+--- !u!114 &745144665276440011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Announcer_TantrumVR
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Announcer_TantrumVR
+  guid: 1f31bccfe505a14a8fd59f31b8f016ef
+  Banks:
+  - {fileID: -1470266751080688157}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3500
+--- !u!114 &844569303777864995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Speaker
+  m_EditorClassIdentifier: 
+  Name: Speaker
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &846558672295017080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD_Store
+  m_EditorClassIdentifier: 
+  Name: LOD_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &854266914677472412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Store/Background_noise
+  m_EditorClassIdentifier: 
+  Path: event:/Store/Background_noise
+  guid: 7c0cb0e1a9dae04d8b2c50021d37d01a
+  Banks:
+  - {fileID: -723084996682066705}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &878689109403574938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Bush_interaction
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Bush_interaction
+  guid: 98b24f013f18ba44a151f7e46a4ae9c6
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 781
+--- !u!114 &919497177617141252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Skateboard_ride
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Skateboard_ride
+  guid: 952a1a0bd4dd4e4e98da29a5acf5a87d
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &923950691014528108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Background_noise
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Background_noise
+  guid: 5aba0cf1e895a24fb748debf4462cb48
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &925260603670533249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &945145585863613909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/City_sound/FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &978474650380979077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/City_sound/FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &1067408876503776768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Announcer_FuckTheMan
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Announcer_FuckTheMan
+  guid: f1fd81fc3423ae4c86d34379ba3064c4
+  Banks:
+  - {fileID: -1470266751080688157}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1500
+--- !u!114 &1107796124008043570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CB/Comments
+  m_EditorClassIdentifier: 
+  Path: event:/CB/Comments
+  guid: a0e9c42c3cd79445a160eed6c56fbd73
+  Banks:
+  - {fileID: -3614666972990032483}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &1139065336716821346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fuck_the_man/LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &1160927555943357947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/City_sound
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/City_sound
+  guid: 9e349a6b3cf4cd4a81808cfdee1869ab
+  Banks:
+  - {fileID: -1574307911200435742}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 163631
+--- !u!114 &1265186634136885548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Skateboard_trick
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Skateboard_trick
+  guid: f5c080a632dfa04cb5fa0cc42dd03969
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &1293562102962513694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Menu.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR2/Tantrum VR/Build/Desktop/Menu.bank
+  SubDir: 
+  lastModified: 637177311399853458
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1278592
+  Exists: 1
+--- !u!114 &1325703015834617608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Chipsbag
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Chipsbag
+  guid: b343ec928a73914b97467e21574c06d6
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &1375658225526387164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fuck_the_man/LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &1423718321670925608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Angry
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Angry
+  guid: f2607db193efaf43a48c488098a80a17
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
+--- !u!114 &1428617743273917815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Doorhandle_open
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Doorhandle_open
+  guid: 56abfb3bc35a3e4c99d1620abf961083
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &1524738524264636644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ambient
+  m_EditorClassIdentifier: 
+  Name: Ambient
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &1588639939390294428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CB/Ambient music
+  m_EditorClassIdentifier: 
+  Path: event:/CB/Ambient music
+  guid: 4b6218c90aeddc429a0f3a9d68c09431
+  Banks:
+  - {fileID: -3614666972990032483}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3376000
+--- !u!114 &1638813944671191043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &1695904074538263453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOD_song/LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &1715761327896251314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Angry_Complain/FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &1726925849219116923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Menu.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Rebel without a clause FMOD/Build/Desktop/Menu.bank
+  SubDir: 
+  lastModified: 637175638818072301
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1278464
+  Exists: 1
+--- !u!114 &1795532301767989915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Ambient
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Ambient
+  guid: 2c516db1221ab244b943cebfeb406cf1
+  Banks:
+  - {fileID: -7602354319741202117}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &1821705367715567116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Rebel without a clause FMOD/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637175638817854050
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2050
+  Exists: 1
+--- !u!114 &1903922388746493453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CB/Cry_baby
+  m_EditorClassIdentifier: 
+  Path: event:/CB/Cry_baby
+  guid: d653c513a3a74748b02095d92496f1f2
+  Banks:
+  - {fileID: -3614666972990032483}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 20000
+--- !u!114 &2005490474747676318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cry_baby/Speaker
+  m_EditorClassIdentifier: 
+  Name: Speaker
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &2080866614150449602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Ipod
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Ipod
+  guid: fb4caf59a4cc39498cbcf1bf9266f14b
+  Banks:
+  - {fileID: -7602354319741202117}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1623452
+--- !u!114 &2092194984882023546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Pencil_drop
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Pencil_drop
+  guid: 2413cb3bfb76dd44a3de77bb3061ccfd
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &2118579791407721151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient music/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &2157374096260047781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 1
+--- !u!114 &2173881181374708688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/LOD SONGS.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Rebel without a clause FMOD/Build/Desktop/LOD SONGS.bank
+  SubDir: 
+  lastModified: 637175638817720130
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 470
+  Exists: 1
+--- !u!114 &2177085819845446135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD_Store
+  m_EditorClassIdentifier: 
+  Name: LOD_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &2274331860209128593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD
+  m_EditorClassIdentifier: 
+  Name: LOD
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &2281900709524409925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood
+  m_EditorClassIdentifier: 
+  Name: Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &2309092921945800805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Ipod
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Ipod
+  guid: fb4caf59a4cc39498cbcf1bf9266f14b
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1623452
+--- !u!114 &2471323827370330914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Window
+  m_EditorClassIdentifier: 
+  Name: Window
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &2526954041097438652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Skateboard_ride
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Skateboard_ride
+  guid: 952a1a0bd4dd4e4e98da29a5acf5a87d
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &2544418077424991735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ambient
+  m_EditorClassIdentifier: 
+  Name: Ambient
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &2557858893403411927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ambient
+  m_EditorClassIdentifier: 
+  Name: Ambient
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &2608718980397360505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fuck_the_man/Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 0
+--- !u!114 &2799310914670797751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Rebel without a clause FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637175638817784612
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2322
+  Exists: 1
+--- !u!114 &3104869551676936636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Store/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &3112201371113808816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &3113391329897540584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood
+  m_EditorClassIdentifier: 
+  Name: Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &3241320142700988683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637176435336324959
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2798
+  Exists: 1
+--- !u!114 &3258969689490381883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Bush_interaction
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Bush_interaction
+  guid: 98b24f013f18ba44a151f7e46a4ae9c6
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 781
+--- !u!114 &3259441274269483570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fuck_the_man/FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &3268267624533335388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Outdoor_noise
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Outdoor_noise
+  guid: 74b3a1381ffc964095f777d90ab94749
+  Banks:
+  - {fileID: -7602354319741202117}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 40000
+--- !u!114 &3326179634808569403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Garbage_can
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Garbage_can
+  guid: 1552d3f2fea97e48b2e48fb06dfb392b
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &3412395905218030255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &3426821137384844492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Comments_norsk/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &3454676915659826099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Comments/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &3473879528756029745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood
+  m_EditorClassIdentifier: 
+  Name: Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &3550267651802977855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOD/Speaker
+  m_EditorClassIdentifier: 
+  Name: Speaker
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &3768651470655796771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Cup_bump
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Cup_bump
+  guid: d0c61737995eea4f8c37d9dcd863fe6b
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &3792042791076401068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Angry_norsk
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Angry_norsk
+  guid: 526a0084ae49f04db6b7dfd124f6f7eb
+  Banks:
+  - {fileID: -3876375823567975322}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
+--- !u!114 &3902422622030439906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FTM.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Rebel without a clause FMOD/Build/Desktop/FTM.bank
+  SubDir: 
+  lastModified: 637175626121535950
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 36290976
+  Exists: 1
+--- !u!114 &4065110395778801756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/RWAC.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/RWAC.bank
+  SubDir: 
+  lastModified: 637176435579493514
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 68867456
+  Exists: 1
+--- !u!114 &4068925932078225157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/LOD SONGS.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/LOD SONGS.bank
+  SubDir: 
+  lastModified: 637177443585525789
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 470
+  Exists: 1
+--- !u!114 &4092341726844988741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Ipod
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Ipod
+  guid: fb4caf59a4cc39498cbcf1bf9266f14b
+  Banks:
+  - {fileID: -3876375823567975322}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1623452
+--- !u!114 &4109827676947424620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ambient
+  m_EditorClassIdentifier: 
+  Name: Ambient
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &4126607021582053967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &4309207750018212799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD
+  m_EditorClassIdentifier: 
+  Name: LOD
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &4360050645166623573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &4462255589275660944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Bottle_thud
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Bottle_thud
+  guid: 9bd511475179eb4c83925e093535320c
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &4470346089333757708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Window
+  m_EditorClassIdentifier: 
+  Name: Window
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &4524952744030528558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient music/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &4569510155587905945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/RWAC.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Rebel without a clause FMOD/Build/Desktop/RWAC.bank
+  SubDir: 
+  lastModified: 637175638821822045
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 68466816
+  Exists: 1
+--- !u!114 &4600426610662560435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Rebel without a clause
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Rebel without a clause
+  guid: 65b5bff27624fc41891053f56df9cb75
+  Banks:
+  - {fileID: -7602354319741202117}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 18352
+--- !u!114 &4628233138218049324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Bottle_drop
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Bottle_drop
+  guid: d06dfcfa8a6cd949ad7988c6e9c1491f
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &4642042201986123170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD_Store
+  m_EditorClassIdentifier: 
+  Name: LOD_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &4656406566811580893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Speaker/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &4950576484640845877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FTM.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/FTM.bank
+  SubDir: 
+  lastModified: 637175697203531734
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 37122144
+  Exists: 1
+--- !u!114 &5041967090257856038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Angry_Complain/Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 1
+--- !u!114 &5081489762557674308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &5099496166471150089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Pencil_drop
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Pencil_drop
+  guid: 2413cb3bfb76dd44a3de77bb3061ccfd
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &5232947674869281661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/City_sound/LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &5251341973137375218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Ambient
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Ambient
+  guid: 2c516db1221ab244b943cebfeb406cf1
+  Banks:
+  - {fileID: -7188773081760235701}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &5373938125881962994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/City_sound/FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &5494454775266630071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/LOD_song
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/LOD_song
+  guid: 857d6667317acc4b95356b9a02891467
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 71949
+--- !u!114 &5583499701099140080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Speaker_norsk/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &5664968041033974336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fuck_the_man/LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &5735676724422021122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637175697205778614
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 37123776
+  Exists: 1
+--- !u!114 &5758377239610523382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/LOD SONGS.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/LOD SONGS.bank
+  SubDir: 
+  lastModified: 637176435336260483
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 470
+  Exists: 1
+--- !u!114 &5822584152760065684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Cup_bump
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Cup_bump
+  guid: d0c61737995eea4f8c37d9dcd863fe6b
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &5922330659542029286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR2/Tantrum VR/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637177311404828341
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1771008
+  Exists: 1
+--- !u!114 &5927894040979443476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Window
+  m_EditorClassIdentifier: 
+  Name: Window
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &5989098006396356324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Comments_norsk/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &6020645716363061589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Window
+  m_EditorClassIdentifier: 
+  Name: Window
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &6075996576900208316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FTM.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR2/Tantrum VR/Build/Desktop/FTM.bank
+  SubDir: 
+  lastModified: 637177311399516184
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 38003168
+  Exists: 1
+--- !u!114 &6093794930851753674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/Angry_Complain_norsk
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/Angry_Complain_norsk
+  guid: 60b0a1f203a471428e636e7b31ee2139
+  Banks:
+  - {fileID: -1574307911200435742}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &6094153560226384643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ipod Controls
+  m_EditorClassIdentifier: 
+  Name: Ipod Controls
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 1
+--- !u!114 &6115697305713696277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mini_disc/Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 0
+--- !u!114 &6130661641206606786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ipod Controls
+  m_EditorClassIdentifier: 
+  Name: Ipod Controls
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 0
+--- !u!114 &6174288675319551047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Menu.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/Menu.bank
+  SubDir: 
+  lastModified: 637175697230251209
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1278464
+  Exists: 1
+--- !u!114 &6300293408237755083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Rebel without a clause
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Rebel without a clause
+  guid: 65b5bff27624fc41891053f56df9cb75
+  Banks:
+  - {fileID: -3876375823567975322}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 18352
+--- !u!114 &6311599633400689134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 1
+--- !u!114 &6334461518332152220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood
+  m_EditorClassIdentifier: 
+  Name: Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &6344882941980680791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Skateboard_trick
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Skateboard_trick
+  guid: f5c080a632dfa04cb5fa0cc42dd03969
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &6457459827496294544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &6461143248428890343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637176435336379522
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 3692
+  Exists: 1
+--- !u!114 &6468686099413180956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Cup_clang
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Cup_clang
+  guid: 70e701784b08c941a80fd56252e1c3db
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &6507796069890008391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/Fuck_the_man
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/Fuck_the_man
+  guid: a9e206e06c23634785300a7e309be99f
+  Banks:
+  - {fileID: 4950576484640845877}
+  - {fileID: 5735676724422021122}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 32000
+--- !u!114 &6581194990511981121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/LOD SONGS.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/LOD SONGS.bank
+  SubDir: 
+  lastModified: 637175697203611096
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 470
+  Exists: 1
+--- !u!114 &6897667261124580724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/LOD SONGS.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Rebel without a clause FMOD/Build/Desktop/LOD SONGS.bank
+  SubDir: 
+  lastModified: 637175626121620266
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 470
+  Exists: 1
+--- !u!114 &7040061660198284097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Outdoor_noise
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Outdoor_noise
+  guid: 74b3a1381ffc964095f777d90ab94749
+  Banks:
+  - {fileID: -3876375823567975322}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 40000
+--- !u!114 &7135631773229632676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Speaker/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &7185134074085283814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Ipod Controls
+  m_EditorClassIdentifier: 
+  Name: Ipod Controls
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 1
+--- !u!114 &7257195006884438321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/LOD_song
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/LOD_song
+  guid: 857d6667317acc4b95356b9a02891467
+  Banks:
+  - {fileID: 3902422622030439906}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3773859146418096237}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 71949
+--- !u!114 &7274674886403491827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Doorhandle_close
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Doorhandle_close
+  guid: bfc84a2655d00b48a320ab78164c6fd3
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &7293639060170341562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/CB.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR2/Tantrum VR/Build/Desktop/CB.bank
+  SubDir: 
+  lastModified: 637177311396892328
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 63822848
+  Exists: 1
+--- !u!114 &7369083436470544633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: FTM_Mood
+  m_EditorClassIdentifier: 
+  Name: FTM_Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &7374364595035694885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Wooden_bench
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Wooden_bench
+  guid: 9809f41008d04241ae0e74e90c055732
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3500
+--- !u!114 &7376078697130534014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Honks
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Honks
+  guid: b2f24a9818c96e44b70ba34c67e500b2
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &7412433510558230265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR/Tantrum VR/Build/Desktop/SFX.bank
+  SubDir: 
+  lastModified: 637177443863167161
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 3711136
+  Exists: 1
+--- !u!114 &7517400670158728143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/Angry_Complain
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/Angry_Complain
+  guid: 3d49637f6dafee49b092deb1457239b0
+  Banks:
+  - {fileID: 4950576484640845877}
+  - {fileID: 5735676724422021122}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &7652883541206391907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Soda_can
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Soda_can
+  guid: c9987d148d097f4cbe7a1bb36ed6d45b
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &7663340885557387308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Angry
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Angry
+  guid: f2607db193efaf43a48c488098a80a17
+  Banks:
+  - {fileID: -3876375823567975322}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
+--- !u!114 &7675281404143162982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mini_disc/Mini disc
+  m_EditorClassIdentifier: 
+  Name: Mini disc
+  Min: 0
+  Max: 15
+  Default: 0
+  Exists: 1
+--- !u!114 &7781688468559355562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood
+  m_EditorClassIdentifier: 
+  Name: Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &7837305102532617070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Announcer_RebelWithoutAClause
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Announcer_RebelWithoutAClause
+  guid: d297b87f34ba374c8b98ae95d3015a9a
+  Banks:
+  - {fileID: -1470266751080688157}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &7990320022285788076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Bump
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Bump
+  guid: 4ef6d248ef973c4c8da3047298b7e96c
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &8018835139857167216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOD_song/LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &8067174708165069883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Store/Comments
+  m_EditorClassIdentifier: 
+  Path: event:/Store/Comments
+  guid: a0e9c42c3cd79445a160eed6c56fbd73
+  Banks:
+  - {fileID: -723084996682066705}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -392242871896721333}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &8249796883694370742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/Angry_Complain
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/Angry_Complain
+  guid: 3d49637f6dafee49b092deb1457239b0
+  Banks:
+  - {fileID: 3902422622030439906}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5041967090257856038}
+  - {fileID: -1869358144518365694}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &8261092583050954413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Honks
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Honks
+  guid: b2f24a9818c96e44b70ba34c67e500b2
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &8273964678564834017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Window_smash
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Window_smash
+  guid: cb37dfa3a09aa740a676f07130356955
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &8357483438482559821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: Mood
+  m_EditorClassIdentifier: 
+  Name: Mood
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &8412860092722726511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Glass_break
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Glass_break
+  guid: 1bcf35ac7508a941bac16f8f9f8c212e
+  Banks:
+  - {fileID: 7412433510558230265}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 875
+--- !u!114 &8441700908255380653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu/Menu
+  m_EditorClassIdentifier: 
+  Path: event:/Menu/Menu
+  guid: 76595c6ea4cf414698634486a84aed69
+  Banks:
+  - {fileID: -6638339854483180529}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 87272
+--- !u!114 &8524100583163189661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD_Store
+  m_EditorClassIdentifier: 
+  Name: LOD_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &8730654981604477756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/marku/Desktop/Tantrum VR2/Tantrum VR/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637177311399664967
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 3974
+  Exists: 1
+--- !u!114 &8731212064269464398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/Mini_disc
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/Mini_disc
+  guid: 5e87182f00d1ee46b0ebc9621d8b2b3c
+  Banks:
+  - {fileID: 4950576484640845877}
+  - {fileID: 5735676724422021122}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3400000
+--- !u!114 &8821919667859594126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RWAC/Outdoor_noise
+  m_EditorClassIdentifier: 
+  Path: event:/RWAC/Outdoor_noise
+  guid: 74b3a1381ffc964095f777d90ab94749
+  Banks:
+  - {fileID: -7188773081760235701}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 40000
+--- !u!114 &8833994014899233788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LOD_FTM
+  m_EditorClassIdentifier: 
+  Name: LOD_FTM
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &8890476328518647919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FTM/LOD_song
+  m_EditorClassIdentifier: 
+  Path: event:/FTM/LOD_song
+  guid: 857d6667317acc4b95356b9a02891467
+  Banks:
+  - {fileID: 4950576484640845877}
+  - {fileID: 5735676724422021122}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 71949
+--- !u!114 &8894458553320027326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CB/Comments_norsk
+  m_EditorClassIdentifier: 
+  Path: event:/CB/Comments_norsk
+  guid: 45ebb044b9d8e64a9117b2f09e2318d9
+  Banks:
+  - {fileID: -3614666972990032483}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8000
+--- !u!114 &8908705879290896362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Firehydrant_waterspout
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Firehydrant_waterspout
+  guid: 22fb50fdabf64a4c8c7008f48c5838d6
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &8934222126118983274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Doorhandle_open
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Doorhandle_open
+  guid: 56abfb3bc35a3e4c99d1620abf961083
+  Banks:
+  - {fileID: -6323295999845541616}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &9083787856337889515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/LOD/Mood_Store
+  m_EditorClassIdentifier: 
+  Name: Mood_Store
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
